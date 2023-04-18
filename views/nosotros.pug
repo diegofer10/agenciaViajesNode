@@ -1,0 +1,31 @@
+extends ./layout/index
+
+block contenido
+    main.container.mt-5
+        .row
+            .col-md-5
+                img(src="img/nosotros.jpg", alt="imagen sobre nosotros", class = "img-fluid" )
+            .col-md-7
+                h1 #{pagina}  
+                blockquote Nosotros y nuestros socios utilizamos cookies para almacenar y acceder a datos personales,            como los datos de navegación, con fines tales como servir y personalizar el contenido                 y la publicidad y analizar el tráfico del sitio. Puedes obtener más información                 sobre los fines para los que utilizamos las cookies o ejercer tus preferencias                 haciendo clic en el botón "Configuración de cookies" que aparece a continuación.
+                p Puedes revisar tus opciones de consentimiento o retirarlo en cualquier momento                 haciendo clic en el enlace a tu configuración de cookies en nuestra Política de cookies.                 Trabajamos en coordinación con un marco de la industria, señalando tus preferencias
+                p globalmente para todos los sitios web participantes. 
+
+    .listado-iconos 
+        .container.mt-5.py-5.text-center
+            .row
+                .col-md-4
+                    img(src="img/icono_seguridad.svg", alt="icono de seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Seguridad
+                    p Puedes revisar tus opciones de consentimiento o retirarlo en cualquier momento 
+
+                .col-md-4
+                    img(src="img/icono_destinos.svg", alt="icono de seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Destinos
+                    p Puedes revisar tus opciones de consentimiento o retirarlo en cualquier momento       
+
+
+                .col-md-4
+                    img(src="img/icono_precios.svg", alt="icono de seguridad", class="img-fluid mb-4")
+                    h2.mb-4 Los mejores Precios
+                    p Puedes revisar tus opciones de consentimiento o retirarlo en cualquier momento    
